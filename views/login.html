@@ -11,7 +11,7 @@
     </style>
   </head>
   <body>
-    {% if user and user.id }
+    {% if user and user.id %}
     <span class="user-name">안녕하세요! {{user.nick}}님</span>
     <a href="/auth/logout">
       <button>로그아웃</button>
